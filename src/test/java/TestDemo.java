@@ -2,11 +2,11 @@ import org.junit.*;
 import org.junit.runners.MethodSorters;
 import static org.junit.Assert.assertTrue;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestDemo {
     @BeforeClass
-    public static void   beforeAllTestCasse(){
-        System.out.println("beforeAllTstCase");
+    public static void   beforeAllTestCase(){
+        System.out.println("beforeAllTestCase");
     }
     @AfterClass
     public  static  void afterAllTestCase(){
