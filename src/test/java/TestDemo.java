@@ -1,40 +1,45 @@
 import org.junit.*;
-import org.junit.runners.MethodSorters;
+
 import static org.junit.Assert.assertTrue;
 
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestDemo {
     @BeforeClass
-    public static void   beforeAllTestCase(){
+    public static void beforeAllTestCase() {
         System.out.println("beforeAllTestCase");
     }
+
     @AfterClass
-    public  static  void afterAllTestCase(){
+    public static void afterAllTestCase() {
         System.out.println("afterAllTestCase");
     }
+
     @Before
-    public  void beforeTestCase(){
+    public void beforeTestCase() {
         System.out.println("i am @before");
     }
+
     @After
-    public void afterTestCase(){
+    public void afterTestCase() {
         System.out.println("i am @after");
     }
 
 
     @Test
-    public void testDemo3(){
+    public void testDemo3() {
         System.out.println("testDemo3");
         assertTrue(false);
     }
+
     @Test
-    public void testDemo1(){
+    public void testDemo1() {
         System.out.println("testDemo1");
         assertTrue(true);
 
     }
+
     @Test
-    public void testDemo2(){
+    public void testDemo2() {
         System.out.println("testDemo2");
         assertTrue(false);
     }

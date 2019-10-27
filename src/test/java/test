@@ -1,0 +1,17 @@
+assertNull(java.lang.Object object)    检查对象是否为空
+
+assertNotNull(java.lang.Object object)     检查对象是否不为空
+
+assertEquals(long expected, long actual)   检查long类型的值是否相等
+
+assertEquals(double expected, double actual, double delta)     检查指定精度的double值是否相等
+
+assertFalse(boolean condition)     检查条件是否为假
+
+assertTrue(boolean condition)  检查条件是否为真
+
+assertSame(java.lang.Object expected, java.lang.Object actual)     检查两个对象引用是否引用同一对象（即对象是否相等）
+
+assertNotSame(java.lang.Object unexpected, java.lang.Object actual)    检查两个对象引用是否不引用统一对象(即对象不等)
+
+fail(String string)  在没有报告的情况下使测试不通过
