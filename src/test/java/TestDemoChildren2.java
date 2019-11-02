@@ -1,5 +1,5 @@
 import org.junit.*;
-import org.junit.runners.MethodSorters;
+import xunit.TestDemo;
 
 import static org.junit.Assert.assertTrue;
 
