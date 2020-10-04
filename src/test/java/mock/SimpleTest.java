@@ -26,10 +26,13 @@ public class SimpleTest{
         String result = list.get(0);
         System.out.println(result);
 
+
+
+
         //验证方法调用(是否调用了get(0))
         verify(list).get(0);
 
-        assertEquals("helloworld", result);
+        assertEquals("helloworld111", result);
     }
 
 
